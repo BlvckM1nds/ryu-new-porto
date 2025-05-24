@@ -11,7 +11,7 @@ export const EXPERIENCES = [
     role: "Junior Software Engineer",
     company: "Dexa Group",
     description: `Developed and maintained a scalable micro front-end PWA, engineered RESTful APIs, optimized logging and database queries, and contributed to the Consumer Health Dexa (CHD) project by building solutions for marketing data collection, call plan scheduling, sellout tracking, and event location analysis for fieldforce teams.`,
-    technologies: ["React", "Redux", "Node.js", "Express", "DBeaver", "Ant Design"],
+    technologies: ["React", "Redux", "Zustand", "Node.js", "NestJS", "Express", "DBeaver", "Shadcn UI", "Ant Design"],
   },
   {
     year: "Apr 2024 - Jul 2024",
@@ -56,14 +56,13 @@ export const PROJECTS = [
     company: "Central Medica",
     image: projectCM,
     description: "Developing and managing back-office administrative processes for Central Medica, focusing on streamlining internal operations. Key responsibilities included overseeing inventory management, handling order processing, and maintaining accurate records to support overall business efficiency.",
-    technologies: ["React", "Elysia", "Bun", "Prisma ORM", "PostgreSQL", "VPS", "Ant Design"],
+    technologies: ["React", "Elysia", "Bun", "Prisma ORM", "PostgreSQL", "Ubuntu", "Ant Design"],
   },
   {
-    title: "Package Evidence Tracker",
-    company: "Hemat Indonesia",
+    title: "Hemat Indonesia",
     image: projectHI,
     description: "Developing an admin page with a module focused on tracking evidence for shipment processes, featuring barcode scanner integration, webcam-triggered evidence capture, and duplicate airwaybill validation. The system optimizes operational efficiency by limiting evidence submissions per airwaybill to prevent duplicate shipments and reduce company losses.",
-    technologies: ["React", "Gin", "GCP", "Docker", "MongoDB", "Chakra UI"],
+    technologies: ["React", "Fiber", "GCP", "Docker", "PostgreSQL", "Ubuntu", "Shadcn UI"],
   },
   {
     title: "Marketing Channel",
