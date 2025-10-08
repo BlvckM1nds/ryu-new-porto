@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 import { DiMsqlServer } from "react-icons/di"
-import { SiDbeaver, SiDocker, SiElixir, SiExpress, SiFlask, SiGin, SiGit, SiGo, SiGooglecloud, SiInformatica, SiJavascript, SiLinux, SiMongodb, SiMysql, SiNestjs, SiNextdotjs, SiNodedotjs, SiPostgresql, SiPython, SiReact, SiTypescript, SiVite } from "react-icons/si"
+import { SiDbeaver, SiDocker, SiElixir, SiExpress, SiFlask, SiGin, SiGit, SiGo, SiGooglecloud, SiInformatica, SiJavascript, SiJenkins, SiLinux, SiMongodb, SiMysql, SiNestjs, SiNextdotjs, SiNodedotjs, SiPostgresql, SiPython, SiReact, SiTypeorm, SiTypescript, SiVite } from "react-icons/si"
 import { VscAzure } from "react-icons/vsc"
 
 const iconVariants = (duration) => ({
@@ -174,6 +174,14 @@ const Technologies = () => {
         <motion.div
           initial="initial"
           animate="animate"
+          variants={iconVariants(4)}
+          className="p-3"
+        >
+          <SiTypeorm />
+        </motion.div>
+        <motion.div
+          initial="initial"
+          animate="animate"
           variants={iconVariants(5)}
           className="p-3"
         >
@@ -226,6 +234,14 @@ const Technologies = () => {
           className="p-3"
         >
           <SiGooglecloud />
+        </motion.div>
+        <motion.div
+          initial="initial"
+          animate="animate"
+          variants={iconVariants(3.5)}
+          className="p-3"
+        >
+          <SiJenkins />
         </motion.div>
       </motion.div>
     </div>

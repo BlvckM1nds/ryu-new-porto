@@ -7,7 +7,14 @@ export const HERO_CONTENT = `I am a passionate full stack developer with a knack
 
 export const EXPERIENCES = [
   {
-    year: "Aug 2024 - Present",
+    year: "Aug 2025 - Present",
+    role: "Software Engineer Level 1",
+    company: "Dexa Group",
+    description: `Involved on Manufacturing squad, developed Product Lifecycle Management system integrated with several external SaaS (e.g. Labware, Oracle, etc.).`,
+    technologies: ["React", "Redux", "Zustand", "Node.js", "NestJS", "Express", "TypeORM", "DBeaver", "Shadcn UI", "Ant Design", "Framer Motion"],
+  },
+  {
+    year: "Jul 2024 - Aug 2025",
     role: "Junior Software Engineer",
     company: "Dexa Group",
     description: `Developed and maintained a scalable micro front-end PWA, engineered RESTful APIs, optimized logging and database queries, and contributed to the Consumer Health Dexa (CHD) project by building solutions for marketing data collection, call plan scheduling, sellout tracking, and event location analysis for fieldforce teams.`,
@@ -56,13 +63,14 @@ export const PROJECTS = [
     company: "Central Medica",
     image: projectCM,
     description: "Developing and managing back-office administrative processes for Central Medica, focusing on streamlining internal operations. Key responsibilities included overseeing inventory management, handling order processing, and maintaining accurate records to support overall business efficiency.",
-    technologies: ["Next.js", "React", "Elysia", "Bun", "Prisma ORM", "PostgreSQL", "Ubuntu", "Ant Design"],
+    technologies: ["Next.js", "React", "NestJS", "TypeORM", "PostgreSQL", "MongoDB", "Jenkins"],
   },
   {
-    title: "Hemat Indonesia",
+    title: "Shipment Tracking System",
+    company: "Hemat Indonesia",
     image: projectHI,
     description: "Developing an admin page with a module focused on tracking evidence for shipment processes, featuring barcode scanner integration, webcam-triggered evidence capture, and duplicate airwaybill validation. The system optimizes operational efficiency by limiting evidence submissions per airwaybill to prevent duplicate shipments and reduce company losses.",
-    technologies: ["Next.js", "React", "Fiber", "GCP", "Docker", "GORM", "PostgreSQL", "Ubuntu", "Shadcn UI"],
+    technologies: ["Next.js", "React", "Fiber", "GCP", "Docker", "GORM", "PostgreSQL", "Jenkins", "Shadcn UI"],
   },
   {
     title: "Marketing Channel",
