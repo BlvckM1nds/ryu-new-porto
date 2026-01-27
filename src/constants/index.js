@@ -7,18 +7,25 @@ export const HERO_CONTENT = `I am a passionate full stack developer with a knack
 
 export const EXPERIENCES = [
   {
-    year: "Aug 2025 - Present",
+    year: "Jan 2026 - Present",
+    role: "AI Software Engineer",
+    company: "Sinar Mas Land",
+    description: `Developing AI-powered solutions for the company's products and services.`,
+    technologies: ["Next.js", "TypeScript", "Azure Cosmos DB", "Azure DevOps Services", "Zustand", "ShadcnUI"],
+  },
+  {
+    year: "Aug 2025 - Jan 2026",
     role: "Software Engineer Level 1",
     company: "Dexa Group",
     description: `Involved on Manufacturing squad, developed Product Lifecycle Management system integrated with several external SaaS (e.g. Labware, Oracle, etc.).`,
-    technologies: ["React", "Redux", "Zustand", "Node.js", "NestJS", "Express", "TypeORM", "DBeaver", "Shadcn UI", "Ant Design", "Framer Motion"],
+    technologies: ["React", "Redux", "Zustand", "Node.js", "NestJS", "Express", "TypeORM", "DBeaver", "ShadcnUI", "Ant Design", "Framer Motion"],
   },
   {
     year: "Jul 2024 - Aug 2025",
     role: "Junior Software Engineer",
     company: "Dexa Group",
     description: `Developed and maintained a scalable micro front-end PWA, engineered RESTful APIs, optimized logging and database queries, and contributed to the Consumer Health Dexa (CHD) project by building solutions for marketing data collection, call plan scheduling, sellout tracking, and event location analysis for fieldforce teams.`,
-    technologies: ["React", "Redux", "Zustand", "Node.js", "NestJS", "Express", "TypeORM", "DBeaver", "Shadcn UI", "Ant Design", "Framer Motion"],
+    technologies: ["React", "Redux", "Zustand", "Node.js", "NestJS", "Express", "TypeORM", "DBeaver", "ShadcnUI", "Ant Design", "Framer Motion"],
   },
   {
     year: "Apr 2024 - Jul 2024",
@@ -70,7 +77,7 @@ export const PROJECTS = [
     company: "Hemat Indonesia",
     image: projectHI,
     description: "Developing an admin page with a module focused on tracking evidence for shipment processes, featuring barcode scanner integration, webcam-triggered evidence capture, and duplicate airwaybill validation. The system optimizes operational efficiency by limiting evidence submissions per airwaybill to prevent duplicate shipments and reduce company losses.",
-    technologies: ["Next.js", "React", "Fiber", "GCP", "Docker", "GORM", "PostgreSQL", "Jenkins", "Shadcn UI"],
+    technologies: ["Next.js", "React", "Fiber", "GCP", "Docker", "GORM", "PostgreSQL", "Jenkins", "ShadcnUI"],
   },
   {
     title: "Marketing Channel",
