@@ -3,15 +3,15 @@ import projectDSW from "../assets/projects/dapoersariwangi.webp";
 import projectHI from "../assets/projects/hematindonesia.webp";
 import projectSOI from "../assets/projects/soindustri.webp";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications and data solutions. With ${new Date().getFullYear() - 2022}+ years of hands-on experience, I have honed my skills in front-end technologies, as well as back-end technologies, cloud technologies, and data-driven technologies. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full-stack developer with a strong focus on building robust, scalable web applications and intelligent data solutions. With ${new Date().getFullYear() - 2022}+ years of hands-on experience, I have expanded my expertise beyond traditional front-end and back-end development into cloud-native architectures and AI-driven systems. I specialize in integrating modern AI capabilities—such as large language models, Retrieval-Augmented Generation (RAG), and real-time data processing—into practical applications that enhance user experiences and unlock business value. My goal is to continuously leverage emerging technologies to design innovative, secure, and high-impact solutions that solve real-world problems and drive meaningful growth.`;
 
 export const EXPERIENCES = [
   {
     year: "Jan 2026 - Present",
     role: "AI Software Engineer",
     company: "Sinar Mas Land",
-    description: `Developing AI-powered solutions for the company's products and services.`,
-    technologies: ["Next.js", "TypeScript", "Azure Cosmos DB", "Azure DevOps Services", "Zustand", "ShadcnUI"],
+    description: `Developed SMLFind, an AI-powered web application featuring a Retrieval-Augmented Generation (RAG)-based knowledge system for real-time conversational search and intelligent document retrieval. Implemented fine-grained access control using RBAC and ABAC to ensure secure data access, and delivered a scalable, cloud-based solution with integrated AI capabilities.`,
+    technologies: ["Next.js", "TypeScript", "Azure Cosmos DB", "Azure DevOps Services", "Azure OpenAI", "MongoDB", "Zustand", "ShadcnUI"],
   },
   {
     year: "Aug 2025 - Jan 2026",
